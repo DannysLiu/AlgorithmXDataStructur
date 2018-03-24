@@ -1,6 +1,8 @@
 
 #### 1.给一个排序的数组，随机从某个位置截取旋转到前面，查找这个旋转数组的最小值 例如：[1,2,3,4,5,6]->[4,5,6,1,2,3]
-```def xx(xxl):
+
+```
+def search_min(anylist):
     index1 = 0
     index2 = len(xxl) - 1
     indexmid = index1
