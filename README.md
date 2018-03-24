@@ -1,5 +1,6 @@
-# algorithm-for-python
+
 Using python to implement various algorithms
+1.给一个排序的数组，随机从某个位置截取旋转到前面，查找这个旋转数组的最小值
 ```def xx(xxl):
     index1 = 0
     index2 = len(xxl) - 1
