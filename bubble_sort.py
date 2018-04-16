@@ -1,11 +1,20 @@
 #!/usr/bin/env python
 
 
-def bubble_sort(l):
-    length = len(l)
-    for i in range(length):
-        for j in range(length-1):
-            if l[j] > l[j+1]:
-                l[j], l[j+1] = l[j+1], l[j]
-    return l
+def bubble_sort(arr):
+    for i in range(len(arr)-1,0,-1):
+        for j in range(i):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+
+    return arr
+
+
+
+
+
+
+
+
+
 
