@@ -43,3 +43,17 @@ class Queue():
         else:
             raise Exception("queue is emtpy")
  ```
+ #### 3. 链表翻转
+ ```
+def rev(link):
+    pre = link
+    cur = link.next
+    link.next = None
+    while cur:
+        tmp = cur.next
+        cur.next = pre
+        pre = cur
+        cur = tmp
+    return pre
+ ```
+  
