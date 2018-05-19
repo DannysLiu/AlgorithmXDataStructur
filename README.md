@@ -56,4 +56,26 @@ def rev(link):
         cur = tmp
     return pre
  ```
-  
+ #### 4. 前序，中序，后序遍历二叉树
+ ```
+ def pre_traversal(tree_root):
+     print tree_root.data
+     if tree_root.left:
+         pre_traversal(tree_root.left)
+     if tree.right:
+         pre_treversal(tree.right)
+ def mid_traversal(tree_root):
+     if tree_root.left:
+         mid_traversal(tree_root.left)
+     print tree_root.data
+     if tree_root.right:
+         mid_traversal(tree_root.right)
+ def post_traversal(tree_root):
+     if tree_root.left:
+         post_traversal(tree_root.left)
+     if tree_root.rgiht:
+         post_traversal(tree_root.right)
+     print tree_root.data
+         
+         
+     
